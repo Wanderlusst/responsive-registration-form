@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto ;
+    justify-items: center;
+    background-color:white;
+   height: 80vh;
+   padding: 80px ;
+   
+   
+}
+.subContainer{
+    background-color: rgba(191, 156, 156, 0.193);
+    
+    border-top: 5px solid orange;
+   
+    padding: 10px;
+    
+  
+    text-align: center;
+    display: inherit;
+    gap: 15px;
+}
+.registation{
+    display: grid;
+    width: 100%;
+}
+.header{
+    font-size: 30px;
+
+}
+.fName{
+    display: grid;
+    grid-template-columns: 0fr 1fr 0.5fr 0fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: end;
+    
+
+}
+.box1{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+    position: relative;
+}
+#valid{
+    right: 10px;
+    color: red;
+    position: absolute;
+    
+   
+}
+#validn{
+    right: 560px;
+    color: red;
+    position: absolute;
+    
+
+}
+
+img{
+    height: 25px;
+    border: 1px solid;
+    padding: 1px;
+    border-right: none;
+    border-color: gray;
+}
+.name{
+    padding:5px;
+    outline: none;
+   
+
+}
+.nameF{
+    padding: 5px;
+    outline: none;
+
+}
+.radioButton{
+    display: grid;
+    grid-template-columns: 0fr 0.2fr 0fr 0fr;
+    justify-items: start;
+    align-items: center;
+}
+select{
+    padding: 10px;
+    height: 40px;
+
+}
+.check{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    text-align: left;
+    row-gap: 10px;
+}
+.register{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    height: 25px;
+    color: white;
+    font-size: 20px;
+}
